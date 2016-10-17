@@ -1,0 +1,4 @@
+# Instrucciones específicas referidas en la guía
+
+# Agregar columna de clave_geoestadistica
+cell.cross("clave_edos csv", "entidad").cells["clave_geoest"].value[0]
