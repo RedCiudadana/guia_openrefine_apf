@@ -1,4 +1,7 @@
 # Instrucciones específicas referidas en la guía
 
+# Dar formato de índice a una variable
+"000"[0,3-length(value)] + value
+
 # Agregar columna de clave_geoestadistica
 cell.cross("clave_edos csv", "entidad").cells["clave_geoest"].value[0]
