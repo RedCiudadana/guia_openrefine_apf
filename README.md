@@ -1,4 +1,4 @@
-# guia_OpRe_apf
+# guia_openrefine_apf
 <b>Guía para la limpieza de datos</b>
 
 Este repositorio está dirigido a los funcionarios de la Administración Pública Federal encargados de llevar a cabo los temas referentes a la política de datos abiertos, con el objetivo de dar una directriz clara en el perfeccionamiento de datos. Se busca lograr que los conjuntos de datos consultables en datos.gob.mx sean archivos limpios e interoperables en el  mayor nivel posible.
