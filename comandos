@@ -6,3 +6,6 @@
 # Unir bases con columna en comúm:
 # Agregar columna de clave_geoestadistica
 cell.cross("clave_edos csv", "entidad").cells["clave_geoest"].value[0]
+
+# Cambio de formato de fecha de DD/MM/AAAA a AAAA-MM-DD
+substring(value,6)+"-"+substring(value,3,5)+"-"+substring(value,0,2)
