@@ -10,4 +10,4 @@ cell.cross("clave_edos csv", "entidad").cells["clave_geoest"].value[0]
 # Cambio de formato de fecha de DD/MM/AAAA a AAAA-MM-DD
 substring(value,6)+"-"+substring(value,3,5)+"-"+substring(value,0,2)
 # Manejo de excepción (D/MM/AAAA)
-substring(value,6)+"-"+substring(value,3,5)+"-" +if(isNumeric(substring(value,0,2)),substring(value,0,2),"0"+substring(value,0,1))
+substring(value,6)+"-"+substring(value,3,5)+"-" +if(isNumeric(substring(value,0,2)),substring(value,0,2),"0"+substring(value,1,2))
