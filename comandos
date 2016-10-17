@@ -13,4 +13,4 @@ substring(value,6)+"-"+substring(value,3,5)+"-"+substring(value,0,2)
 substring(value,6)+"-"+substring(value,3,5)+"-" +if(isNumeric(substring(value,0,2)),substring(value,0,2),"0"+substring(value,1,2))
 
 # Remover espacios en blanco
-trim(string s)
+trim(value)
